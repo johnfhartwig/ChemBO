@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+
+dist/
+build/
+*.dmg
+
+.ChemBO_config.pkl
+
+.DS_Store
+

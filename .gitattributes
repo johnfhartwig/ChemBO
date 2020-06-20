@@ -1,0 +1,6 @@
+gui/assets/cc.png filter=lfs diff=lfs merge=lfs -text
+gui/assets/fc.png filter=lfs diff=lfs merge=lfs -text
+gui/assets/pc.png filter=lfs diff=lfs merge=lfs -text
+gui/assets/tray-256.png filter=lfs diff=lfs merge=lfs -text
+gui/assets/tray.png filter=lfs diff=lfs merge=lfs -text
+gui/assets/tray-256.icns filter=lfs diff=lfs merge=lfs -text
