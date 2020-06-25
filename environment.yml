@@ -2,10 +2,13 @@ name: chembo
 channels:
   - pytorch
 dependencies:
+  - python=3.6
   - numpy
   - scipy
   - matplotlib
-  - platypus-opt
-  - pyinstaller=1.6
   - pytorch=1.2.0
-  - torchvision=0.4.2
+  - pip
+  - pip:
+    - Platypus-Opt==1.0.4
+    - pyinstaller
+    - PyQt5
