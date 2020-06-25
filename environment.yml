@@ -1,0 +1,11 @@
+name: chembo
+channels:
+  - pytorch
+dependencies:
+  - numpy
+  - scipy
+  - matplotlib
+  - platypus-opt
+  - pyinstaller=1.6
+  - pytorch=1.2.0
+  - torchvision=0.4.2
