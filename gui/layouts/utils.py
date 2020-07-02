@@ -103,7 +103,7 @@ class Experiment(object):
         self.inputs = torch.zeros(0, len(self.variables), dtype=torch.long)
         self.outputs = torch.zeros(0, dtype=torch.float)
 
-        self.combo = COMBO(max(2, batch_size), variables)
+        self.combo = COMBO(batch_size, variables)
 
     def to_text(self, inputs):
         if len(inputs.size()) == 1:
